@@ -1,0 +1,146 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f7f9fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* Form Container */
+.form-container {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.form-container h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.form-container p {
+  color: #888888;
+  font-size: 14px;
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #5a67d8;
+}
+
+.input-with-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-with-button input {
+  flex: 1;
+  margin-right: 0.5rem;
+}
+
+.input-with-button button {
+  background-color: #5a67d8;
+  color: white;
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.input-with-button button:hover {
+  background-color: #434190;
+}
+
+/* Location Section */
+.location-section {
+  margin: 1.5rem 0;
+}
+
+.btn-location {
+  background-color: #48bb78;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-location:hover {
+  background-color: #38a169;
+}
+
+#location-status {
+  margin-top: 1rem;
+  color: #888;
+  font-size: 14px;
+}
+
+/* Login Button */
+.btn-login {
+  background-color: #5a67d8;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+  background-color: #434190;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Absensi dengan GPS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Login Absensi</h1>
+            <p>Silakan login dan absen menggunakan lokasi GPS Anda.</p>
+            
+            <div class="input-group">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" placeholder="Masukkan nama">
+            </div>
+
+            <div class="input-group">
+                <label for="nip">NIP</label>
+                <div class="input-with-button">
+                    <input type="password" id="nip" placeholder="Masukkan NIP">
+                    <button id="toggleNIP" onclick="toggleNIPVisibility()">Lihat</button>
+                </div>
+            </div>
+
+            <div class="location-section">
+                <h3>Absensi Berbasis GPS</h3>
+                <button class="btn-location" id="getLocation" onclick="getLocation()">Ambil Lokasi GPS</button>
+                <p id="location-status">Lokasi belum diambil</p>
+                <p id="coordinates"></p>
+            </div>
+
+            <button class="btn-login" onclick="login()">Login</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
